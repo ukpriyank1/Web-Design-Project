@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airlines International Travel</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- header section with logo, nav-links & icons  -->
+<section class="hero">
+    <header>
+
+        <div id="logo">
+            <h1><span>AIR </span>LINES</h1>
+            <h3>INTERNATIONAL TRAVEL</h3>
+        </div>
+
+        <div class="links-character">
+            <div class="icons">
+                <i class="fa-solid fa-house"></i>
+                <i class="fa-solid fa-envelope"></i>
+                <i class="fa-regular fa-calendar-days"></i>
+            </div>
+
+            <div class="nav-bar">
+                 <ul>
+                     <a href="#home"><li id="home">Home</li></a>
+                     <a href="#our-aircraft"><li>our aircraft</li></a>
+                     <a href="#safety"><li>safety</li></a>
+                    <a href="#charters"><li>charters</li></a>
+                    <a href="#contacts"><li>contacts</li></a>
+                </ul>
+            </div>
+
+            <i class="ri-menu-line"></i>
+
+    </header>
+
+    <!-- extra sub nav here  -->
+
+    <div class="nav-links-second">
+        <ul>
+            <a href="#home"><li id="home">Home</li></a>
+            <a href="#our-aircraft"><li>our aircraft</li></a>
+            <a href="#safety"><li>safety</li></a>
+           <a href="#charters"><li>charters</li></a>
+           <a href="#contacts"><li>contacts</li></a>
+       </ul>
+   </div>
+
+</section>
+
+   <!-- main section start with content & slider of content  -->
+
+           <main id="aviation-marketing-content">
+            
+                 <h4>Comfort <p>guarnteed</p></h4>
+                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae eum provident vitae voluptatum voluptate fugit id vel ipsam repellat hic!</p>
+
+                 <div class="btn">
+                     <button class="order">order tickets online <span>&#10095;</span></button>
+                </div>
+                
+            </main>
+
+     <!-- aside section start with flight planner & website details  -->
+
+    <aside>
+
+        <!-- flight-planner  -->
+        <div class="flight-planner">
+
+            <h2>your flight planner</h2>
+
+            <div id="radio-btn">
+                <div class="radio-btn-details">
+
+                    <div class="trip">
+                        <input type="radio" value="round trip" name="trip" id="radio" > <label for="">round trip</label>
+                    </div> 
+                    <div class="trip">
+                        <input type="radio" value="empty-leg" name="trip" id="radio"> <label for="">empty-leg</label>
+                    </div> 
+
+                </div>
+                <div class="radio-btn-details-second">
+
+                    <div class="trip">
+                        <input type="radio" value="one way" name="trip" id="radio" class="round"> <label for="">one way</label>
+                    </div> 
+                    <div class="trip multi-leg">
+                        <input type="radio" value="multi-leg" name="trip" id="radio" class="multi"> <label for="">multi-leg</label>
+                    </div> 
+
+                </div>
+                
+            </div>
+
+            <form action="">
+
+                <div class="leaving-form">
+                     <label for="leaving from">leaving from:</label>
+                     <input type="text" placeholder="Enter City or Airport Code" minlength="7" maxlength="10"  id="city" required>
+                </div>
+
+                <div class="going-to">
+                    <label for="going to">going to:</label>
+                    <input type="text" placeholder="Enter City or Airport Code" minlength="7" maxlength="10" id="city" required >
+                </div>
+
+                <label for="departure date and time">departure date and time:</label>
+                <div class="date-time">
+                    <input type="date" required id="datetime">
+                    <input type="time" required id="datetime">
+                </div>
+
+                <label for="return date and time">return date and time:</label>
+                <div class="date-time">
+                    <input type="date" required id="datetime">
+                    <input type="time" required id="datetime">
+                </div>
+
+                <div class="passenger">
+                    <div class="btn_passenger">
+                        <label for="passenger">passenger(s):</label>
+                        <input type="text" placeholder="#passengers" minlength="7" maxlength="10" id="passenger" required>    
+                    </div>
+
+                     <div class="btn"><button class="go">GO!</button></div>
+                </div>
+
+            </form>
+
+            <h2 class="recent-news">recent news</h2>
+            <div id="news-combine">
+                <div class="first_news" id="news">
+
+                    <strong>Lorem ipsum dolor sit amet consectetur.</strong>
+                    <p>november 5, 2010</p>
+
+                </div>
+                <div class="second_news news" id="news">
+
+                    <strong>Lorem ipsum dolor sit amet consectetur.</strong>
+                    <p>november 1, 2010</p>
+
+                </div>
+                <div class="third_news news" id="news">
+
+                    <strong>Lorem ipsum dolor sit amet consectetur.</strong>
+                    <p>octomber 23, 2010</p>
+
+                </div>
+            </div>
+
+        </div>
+
+        <!-- website-details -->
+        <div class="website-details">
+
+            <h2>welcome to our website!</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae, incidunt sunt porro facilis deleniti odio. Eveniet, exercitationem voluptatem. Quis, aliquid?</p>
+
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae nisi, iure tenetur quibusdam tempore magni!</p>
+
+           <div class="vehicals_commodity">
+
+               <div class="aircraft">
+                   <strong><ul><li><strong>aircraft</strong></li></ul></strong>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, facilis!</p>
+                  <button>read more</button>
+               </div>
+               <div class="charters">
+                   <strong><ul><li><strong>charters</strong></li></ul></strong>
+                   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi voluptates reiciendis temporibus nisi molestiae at!</p>
+                   <div class="btn">
+                       <button class="fleet">fleet</button>
+                       <button class="read">reservation</button>
+                   </div>
+
+            </div>
+
+            <div class="container">
+                <div class="our_client">
+                    <h2>our client</h2>
+
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos explicabo dolorum sequi ipsam, ex incidunt error quia quasi perferendis in.</p>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae laboriosam facilis ea eaque <a href="#home">doloribus consectetur</a>, officiis rem molestias magni necessitatibus cum, dolorum aliquam nobis asperiores aliquid, placeat deleniti quod. Non eligendi aut corrupti ipsum.</p>
+
+                </div>
+                <div class="quote">
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ipsam, exercitationem ipsa beatae expedita impedit</a> consectetur provident reiciendis tenetur veniam, corrupti sapiente dolores accusamus nulla!</p>
+
+                    <div class="author">
+                         <p>mr. thomas lloyd</p>
+                    </div>
+
+                </div>
+            </div>
+
+           </div>
+
+        </div>
+
+    </aside>
+
+     <!-- footer start here  -->
+
+    <footer>
+        <div class="copy-right_templatemonster">
+            <p>copyright @2010 <u>domain name</u> - all rights reseved</p>
+
+            <p>free css template by templatemonster</p>
+        </div>
+    </footer>
+
+   
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>

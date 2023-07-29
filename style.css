@@ -1,0 +1,816 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(44, 44, 44);
+    padding: 10px 120px;
+    color: rgba(195, 195, 195);
+    font-weight: 300;
+}
+
+#logo h1, h3  {
+    font-weight: 300;
+    font-style: italic;
+}
+
+#logo h1 {
+   font-size: 43px;
+}
+
+#logo h3 {
+    line-height: 0.3;
+    margin-bottom: 20px;
+ }
+
+#logo h1 span {
+    background: -webkit-linear-gradient(#3457D5, #0039a6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.links-character {
+    display: flex;
+    flex-direction: column;
+}
+
+.links-character .icons {
+    text-align: end;
+    margin: 10px 20px;
+}
+
+.links-character .icons i {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+header .nav-bar ul {
+    display: flex;
+    list-style: none;
+}
+
+header  .nav-bar  ul li {
+    margin: 0 20px;
+    text-transform: uppercase;
+    font-size: 17px;
+    color:rgba(195, 195, 195);
+}
+
+header  .nav-bar  ul li:hover {
+    color: #fff;
+}
+
+header .nav-bar  ul  a {
+    text-decoration: none;
+}
+
+.ri-menu-line {
+    display: none;
+}
+
+.nav-links-second  {
+    display: none;
+}
+
+#home {
+    background-color: rgba(0, 0, 0);
+    padding: 5px 15px;
+    border-radius: 3px;
+}
+
+/* main section start with content & slider of content  */
+
+#aviation-marketing-content {
+    width: 90%;
+    height: 70vh;
+    background-color: #c0c0c0;
+    background: url("https://images.pexels.com/photos/5726119/pexels-photo-5726119.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0 70px;
+    position: relative;
+    margin:  0 auto;
+    background-repeat: no-repeat;
+}
+
+#aviation-marketing-content h4 {
+    font-size: 60px;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+#aviation-marketing-content h4 p {
+    text-transform: capitalize;
+    font-weight: 300;
+    line-height: 0.6;
+    margin-left: 75px;
+}
+
+#aviation-marketing-content p {
+    width: 35%;
+    color: #fff;
+    font-weight: 200;
+}
+
+#aviation-marketing-content .btn .order {
+    width: 18%;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 5px;
+    font-weight: 200;
+    color: #fff;
+    background-color: rgba(44, 44, 44);
+    border: none;
+    border-radius: 2px 2px 2px 2px;
+    position: absolute;
+    top: 400px;
+}
+
+#aviation-marketing-content  button span {
+    margin-left: 40px;
+    border-left: 1px solid rgba(60, 60, 60);
+}
+
+ /* aside section start with flight planner & website details  */
+
+ aside {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+ }
+
+ .flight-planner {
+    width: 30%;
+    height: 50%;
+    background-color: rgba(225, 225, 225);
+    padding: 45px;
+ }
+
+ .flight-planner h2 {
+   color: rgb(82, 86, 89);
+   text-transform: capitalize;
+   font-weight: 400;
+   margin-bottom: 10px;
+ }
+
+ #radio-btn {
+    width: 100%;
+    font-size: 1vw;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+ }
+
+ form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+ }
+
+ .leaving-form {
+    display: flex;
+    flex-direction: column;
+ }
+
+ .going-to {
+    display: flex;
+    flex-direction: column;
+ }
+
+ .btn_passenger {
+    display: flex;
+    flex-direction: column;
+ }
+
+ .passenger {
+    display: flex;
+ }
+
+ .passenger .btn .go {
+   padding: 3px 20px;
+   background: linear-gradient(#8badcc, #3457D5);
+   border: none;
+   border-radius: 3px;
+   margin: 23px 0 0 45px;
+   color: rgba(235, 235, 235);
+   cursor: pointer;
+ }
+
+ .radio-btn-details {
+    display: flex;
+    gap: 30px;
+    margin-left: 30px;
+ }
+
+ .radio-btn-details-second {
+    display: flex;
+    gap: 39px;
+ }
+
+ .recent-news {
+    margin-top: 30px;
+ }
+
+ form label {
+    text-transform: capitalize;
+ }
+
+ form input {
+    padding: 0 10px;
+ }
+
+ #news-combine strong {
+    color: #436a83;
+    font-weight: 100;
+ }
+
+ form .datetime {
+   width: 100%;
+}
+
+ form #datetime {
+   width: 9.6vw;
+   margin: 0;
+}
+
+ #news-combine p {
+    font-weight: 100;
+ }
+
+ #news {
+    border-bottom: 1px solid rgba(195, 195, 195);
+   padding: 10px 0;
+ }
+
+ /* start website details section  */
+ .website-details {
+   width: 70%;
+    padding: 45px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+ }
+
+ .website-details  h2 {
+    font-weight: 400;
+    text-transform: capitalize;
+ }
+
+ .website-details p {
+    color: #436a83;
+    font-weight: 200;
+    font-size: 1.4vw;
+ }
+
+ .vehicals_commodity .aircraft {
+    display: flex;
+    flex-direction: column;
+ }
+
+ .vehicals_commodity .aircraft strong ul li{
+    text-transform: capitalize;
+    margin-left: 20px;
+    color: #3457D5;
+ }
+
+ .vehicals_commodity .aircraft strong ul li strong {
+    font-weight: 400;
+    color: #000;
+ }
+
+ .vehicals_commodity .aircraft p {
+    margin-left: 20px;
+    color: #000;
+ }
+
+ .vehicals_commodity .aircraft button {
+    border: none;
+    padding: 3px 15px;
+    text-transform: uppercase;
+    color: rgba(195, 195, 195);
+    background-color: rgba(44, 44, 44);
+    border-radius: 3px;
+    margin-top: 10px;
+    align-self: flex-end;
+ }
+
+ .vehicals_commodity .charters {
+    display: flex;
+    flex-direction: column;
+ }
+
+ .vehicals_commodity .charters strong ul li{
+    text-transform: capitalize;
+    margin-left: 20px;
+    color: #3457D5;
+ }
+
+ .vehicals_commodity .charters strong ul li strong {
+    font-weight: 400;
+    color: #000;
+ }
+
+ .vehicals_commodity .charters p {
+    margin-left: 20px;
+    color: #000;
+ }
+
+ .vehicals_commodity .charters .btn {
+    align-self: flex-end;
+ }
+
+ .vehicals_commodity .charters .fleet  {
+    border: none;
+    padding: 3px 15px;
+    text-transform: uppercase;
+    color: rgba(195, 195, 195);
+    background-color: rgba(44, 44, 44);
+    border-radius: 3px;
+    margin-top: 10px;
+ }
+
+ .vehicals_commodity .charters .read {
+    border: none;
+    padding: 3px 15px;
+    text-transform: uppercase;
+    color: rgba(195, 195, 195);
+    background-color: linear-gradient(#8badcc, #3457D5);
+    border-radius: 3px;
+    margin-top: 10px;
+ }
+
+ .vehicals_commodity .container {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .vehicals_commodity .container  .our_client {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+ }
+
+ .vehicals_commodity .container  .quote {
+    width: 35%;
+    background: linear-gradient(#8badcc, #3457D5);
+    padding: 30px;
+ }
+
+  .vehicals_commodity .container  .quote .author p {
+   text-transform: capitalize;
+   margin-top: 10px;
+   text-align: right;
+   color: rgba(235, 235, 235);
+  }
+
+  /* footer start here  */
+
+  footer {
+   width: 100%;
+   background: rgba(44, 44, 44);
+   color: rgba(195, 195, 195);
+   padding: 0 70px;
+  }
+
+  footer .copy-right_templatemonster {
+   height: 18vh;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   font-weight: 300;
+   font-size: 2.5vmin;
+  }
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+    header {
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 50px;
+        color: rgba(195, 195, 195);
+    }
+
+     .nav-bar  {
+        display: none;
+     }
+
+     .icons {
+        display: none;
+     }
+
+     #logo h1 {
+        font-size: 5vw;
+        line-height: 1.7;
+     }
+
+     .ri-menu-line {
+        display: block;
+        font-size: 5vw;
+     }
+
+     #aviation-marketing-content {
+        width: 100%;
+        height: 60vh;
+        justify-content: space-evenly;
+        padding: 0 20px;
+    }
+
+    #aviation-marketing-content h4 {
+       text-align: center;
+        font-weight: 500;
+        font-size: 12vw;
+    }    
+
+    #aviation-marketing-content h4 p {
+        font-weight: 500;
+        font-size: 12vw;
+        margin-left: 0;
+    }
+    
+     #aviation-marketing-content p {
+        width: 100%;
+        font-size: 3.5vw;
+        text-align: center;
+    }
+
+    #aviation-marketing-content .btn {
+      width: fit-content;
+      margin: 0 auto;
+    }
+
+    #aviation-marketing-content .btn .order {
+      width: 100%;
+      font-size: 15px;
+      padding: 10px 20px; 
+      position: relative;
+      top: 0;
+  }
+
+    #aviation-marketing-content  button span {
+        display: none;
+    }
+
+ /* aside section start with flight planner & website details  */
+
+ aside {
+   width: 100%;
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column-reverse;
+}
+
+ .flight-planner {
+   width: 100%;
+   background-color: rgba(205, 205, 205);
+}
+
+ .flight-planner h2 {
+   color: rgb(122, 156, 235);
+   text-transform: capitalize;
+   font-weight: 400;
+   text-align: center;
+   font-size: 8vw;
+   margin-bottom: 30px;
+ }
+
+ #radio-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .radio-btn-details {
+   gap: 30px;
+   margin-left: 5px;
+   margin-bottom: 10px;
+   font-size: 5vmin;
+}
+
+.radio-btn-details-second {
+   gap: 45px;
+   font-size: 5vmin;
+}
+
+ form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    margin-top: 50px;
+ }
+
+ form #city {
+    width: 75vw;
+    height: 6vh;
+    font-size: 3vw;
+ }
+
+ form #datetime {
+    width: 37vw;
+    height: 6vh;
+    font-size: 3vw;
+ }
+
+ .passenger {
+    flex-direction: column;
+ }
+
+ form #passenger {
+    width: 75vw;
+    height: 6vh;
+    font-size: 3vw;
+ }
+
+ form label {
+   font-size: 5vmin;
+   text-align: center;
+}
+
+ .btn {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+
+ .passenger .btn .go {
+   padding: 2.5vmin 15vmin;
+   margin: 0 0 0 0;
+   margin-top: 30px;
+ }
+
+ #news-combine {
+    text-align: center;
+    font-size: 3vw;
+ }
+
+ /* start website details section  */
+ .website-details {
+   width: 100%;
+ }
+
+ .website-details p {
+    font-size: 3vmin;
+ }
+
+ .vehicals_commodity .aircraft button {
+   margin: 20px 0;
+   align-self: center;
+   font-size: 3vmin;
+}
+
+ .vehicals_commodity .charters .btn {
+   align-self: center;
+   gap: 20px;
+}
+
+.vehicals_commodity .charters .fleet  {
+   margin-top: 20px;
+   font-size: 3vmin;
+}
+
+.vehicals_commodity .charters .read {
+   margin-top: 20px;
+   font-size: 3vmin;
+}
+
+ .vehicals_commodity .container {
+    margin-top: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+ }
+
+ .vehicals_commodity .container  .our_client {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+
+ .vehicals_commodity .container  .our_client h2 {
+   text-align: center;
+ }
+
+ .vehicals_commodity .container  .our_client p {
+   text-align: center;
+   font-size: 3vmin;
+   width: 100%;
+   padding: 0;
+ }
+
+ .vehicals_commodity .container  .quote {
+    width: 90%;
+    background: linear-gradient(#8badcc, #3457D5);
+    padding: 30px;
+    flex-wrap: wrap;
+    font-size: 3vmin;
+ }
+
+ .vehicals_commodity .container  .quote p {
+   font-size: 3vmin;
+   color: #fff;
+}
+
+  footer .copy-right_templatemonster  {
+   font-size:3.5vmin;
+   flex-direction: column;
+   justify-content: center;
+   gap: 10px;
+  }
+
+}
+
+ @media only screen and (min-width: 600px) and (max-width: 1179px) {
+header {
+    justify-content: center;
+    align-items: center;
+    padding: 10px 120px;
+    color: rgba(195, 195, 195);
+}
+
+ .nav-bar  {
+    display: none;
+ }
+
+ .icons {
+    display: none;
+ }
+
+ .hero .nav-links-second {
+    display: block;
+    width: 100%;
+    background-color: rgba(10, 44, 124);
+ }
+
+ .hero .nav-links-second ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    align-items: center;
+ }
+
+ .hero .nav-links-second ul a {
+    text-decoration: none;
+    color: rgba(195, 195, 195);
+ }
+
+ #aviation-marketing-content {
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 0 20px;
+}
+
+#aviation-marketing-content h4 {
+   text-align: center;
+    font-weight: 500;
+    font-size: 8vw;
+}    
+
+#aviation-marketing-content h4 p {
+    font-weight: 500;
+    font-size: 8vw;
+    margin-left: 0;
+}
+
+ #aviation-marketing-content p {
+    width: 100%;
+    text-align: center;
+}
+
+#aviation-marketing-content .btn {
+   width: fit-content;
+   margin: 0 auto;
+ }
+
+ #aviation-marketing-content .btn .order {
+   width: 100%;
+   font-size: 17px;
+   padding: 10px 20px; 
+   position: relative;
+   top: 0;
+}
+
+#aviation-marketing-content  button span {
+    display: none;
+}
+
+/* aside section start with flight planner & website details  */
+
+aside {
+   width: 100%;
+}
+
+.flight-planner {
+   width: 50%;
+}
+
+#radio-btn {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.radio-btn-details {
+  gap: 30px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+  font-size: 2.5vmin;
+}
+
+.radio-btn-details-second {
+  gap: 45px;
+  font-size: 2.5vmin;
+}
+
+ form .datetime {
+   width: 100%;
+}
+
+ form #datetime {
+   width: 13vw;
+}
+
+form #passenger {
+   width: 15vw;
+}
+
+.passenger .btn .go {
+   padding: 3px 25px;
+ }
+
+ #news-combine strong {
+    color: #436a83;
+    font-weight: 100;
+ }
+
+ #news-combine p {
+    font-weight: 100;
+ }
+
+ #news {
+    border-bottom: 1px solid rgba(195, 195, 195);
+   padding: 10px 0;
+ }
+
+ /* start website details section  */
+ .website-details {
+   width: 70%;
+ }
+
+ .website-details p {
+   font-size: 2vmin;
+ }
+
+ .vehicals_commodity p {
+   font-size: 2vmin;
+ }
+
+ .vehicals_commodity .aircraft button {
+   font-size: 2vmin;
+ }
+
+ .vehicals_commodity .charters .fleet  {
+   font-size: 2vmin;
+ }
+
+ .vehicals_commodity .charters .read {
+    background: linear-gradient(#8badcc, #3457D5);
+    font-size: 2vmin;
+ }
+
+ .vehicals_commodity .container  .quote {
+    width: 45%;
+    background: linear-gradient(#8badcc, #3457D5);
+   padding: 20px;
+ }
+
+ .vehicals_commodity .container  .quote p {
+   font-size: 2.5vmin;
+   color: #fff;
+}
+
+} 
